@@ -1,6 +1,6 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import Todolist from "../pages/Todolist";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Todolist from '../pages/Todolist';
 
 const index = () => {
   return (

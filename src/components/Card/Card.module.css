@@ -2,6 +2,8 @@
     border: solid 1px rgb(230, 230, 230);
     border-radius: 10px;
     /* box-shadow: 2px 2px 2px 2px silver; */
+    width: 500px;
+    height: 600px;
 }
 
 .common-card-top {

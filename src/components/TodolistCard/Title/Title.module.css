@@ -1,18 +1,27 @@
-.main-title {
+.title-main-title {
     text-align: left;
     font-weight: bold;
     margin-top: 20px;
     font-size: 2em;
+    color: rgb(39, 39, 39);
 }
 
-.subtitle {
+.title-subtitle {
     margin-top: 10px;
     text-align: left;
+    font-size: 1.1em;
+    color: rgb(138, 138, 138);
+    font-family: 'NotoSansKR-Regular';
 }
 
-.notice {
+.title-notice {
     margin-top: 50px;
     text-align: left;
     font-weight: bold;
     font-size: 0.9em;
+    font-family: 'NotoSansKR-Light';
+}
+
+.title-notice-doing {
+    color: rgb(53, 205, 81);
 }
