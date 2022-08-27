@@ -1,0 +1,18 @@
+.main-title {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+.subtitle {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.notice {
+    margin-top: 50px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 0.9em;
+}
