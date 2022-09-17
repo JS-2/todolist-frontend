@@ -1,0 +1,47 @@
+.todolist-item-content-card {
+    background-color: white;
+    border: solid 1px rgb(207, 207, 207);
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 4px 7px 7px 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 305px;
+    transition: background 0.2s;
+    font-family: 'NotoSansKR-Light';
+    color: rgb(84, 84, 84);
+    display: flex;
+    justify-content: space-between;
+}
+
+.todolist-item-content-card-checked {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.todolist-item-frame {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todolist-item-checkbox {  /* 실제 체크박스는 화면에서 숨김 */
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 1px solid #999;
+    appearance: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.todolist-item-checkbox:checked {
+  background: rgb(135, 135, 135);
+}
+
+.todolist-delete {
+    width: 30px;
+    height: 30px;
+    filter: invert(63%) sepia(9%) saturate(15%) hue-rotate(48deg) brightness(85%) contrast(82%);
+    opacity: 0.6;
+}

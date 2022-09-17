@@ -1,12 +1,14 @@
 import React from 'react';
 import TodolistCard from '../../components/TodolistCard/TodolistCard';
-import TrashCan from '../../components/TrashCan';
+import styles from './Todolist.module.css';
 
 const Todolist = () => {
   return (
     <>
-      <TodolistCard />
-      <TrashCan />
+      <div>로그인</div>
+      <div className={styles['todolist-page']} style={{}}>
+        <TodolistCard />
+      </div>
     </>
   );
 };

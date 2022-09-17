@@ -1,20 +1,34 @@
 .common-card-frame {
     border: solid 1px rgb(230, 230, 230);
-    border-radius: 10px;
+    border-radius: 5px;
     /* box-shadow: 2px 2px 2px 2px silver; */
-    width: 500px;
-    height: 600px;
+    width: 420px;
+    height: 630px;
+    background-color: white;
 }
 
 .common-card-top {
     padding: 20px;
-
+    padding-bottom: 0px;
+    height: 185px;
 }
 
 .common-card-divider {
-    padding: 20px;
-    height: 1px;
     border: 0;
-    padding: 0;
     border-top: 1px solid rgb(230, 230, 230);
+    margin: 0;
+}
+.common-card-bottom {
+    padding: 20px;
+    padding-top: 0;
+    height: 395px;
+    overflow-y: scroll;
+}
+
+.common-card-bottom::-webkit-scrollbar {
+    width: 8px;
+}
+.common-card-bottom::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 5px;
 }
